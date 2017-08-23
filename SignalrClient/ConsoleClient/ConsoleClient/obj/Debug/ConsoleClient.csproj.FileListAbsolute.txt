@@ -8,3 +8,13 @@ C:\signalrPOC\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\Newtonsoft.Jso
 C:\signalrPOC\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache
 C:\signalrPOC\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
 C:\signalrPOC\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\signalrPOC\signalrApiCSharp\SignalrClient\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache

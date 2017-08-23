@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.SignalR.Client;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,7 +8,7 @@ using System.Web.Http;
 
 namespace SingalrHubApi.Controllers
 {
-    [Authorize]
+  
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -19,7 +20,14 @@ namespace SingalrHubApi.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            string mymessage = "";
+            var hubConnection = new HubConnection("http://localhost:50205/signalr");
+            var h = hubConnection.CreateHubProxy("MyHub");
+            h.On<string>("newMessage", message => {
+                mymessage = message;
+            });
+            hubConnection.Start().Wait();
+            return mymessage;
         }
 
         // POST api/values

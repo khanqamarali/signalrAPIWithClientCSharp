@@ -15,7 +15,7 @@ namespace SingalrHubApi.Models
         {
             var msg = String.Format(
                    "{0}: {1}", Context.ConnectionId, message);
-            Clients.All.newMessage("Hello");
+            Clients.All.newMessage(message);
 
         }
         public string SendMessageToClient()
